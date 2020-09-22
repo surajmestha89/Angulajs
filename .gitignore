@@ -1,0 +1,4 @@
+bower_components/angular/.bower.json
+*.npmignore
+node_modules/
+bower_components/
