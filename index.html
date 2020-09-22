@@ -1,0 +1,74 @@
+
+<html ng-app="myapp" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>angularjs app</title>
+
+    <!-- css libery link  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bower_components\bootstrap\dist\css\bootstrap.css">
+    <link rel="stylesheet" href="bower_components\Font-Awesome\css\all.min.css">
+    
+
+    <!-- js script  -->
+    <script src="bower_components\angular\angular.js"></script>
+    <script src="bower_components\angular-ui-router\release\angular-ui-router.js"></script>
+    
+    <script src="node_modules\angular-material\angular-material.js"></script>
+    <script src="bower_components\jquery\dist\jquery.min.js"></script>
+    <script src="node_modules\@popperjs\core\dist\cjs\popper.js"></script>
+   
+    <!-- <script src="node_modules\ui-select\dist\select.min.js"></script> -->
+    <!-- <script src="bower_components\oclazyload\dist\ocLazyLoad.min.js"></script> -->
+    <script src="app\scripts\app.js"></script>
+    <script src="app\Path\login\login.js"></script>
+    <script src="app\Commponent\text\text.js"></script>
+    
+</head>
+<body >
+  <!-- navigation menu bar    -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Angular App</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" ui-sref="home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" ui-sref="login">Login</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- navigation bar menu end  -->
+  
+  <!-- <div class="container p-5">
+     
+      <a class="btn btn-info" ui-sref="login">login page</a>
+      <a class="btn btn-danger" ui-sref="home"> home</a>
+  </div> -->
+  
+<div class="container" ui-view></div>
+  <!-- footer start  -->
+  <footer class="bg-dark">
+<p class=" text-center fixed-bottom"> copyright &copy;2020</p>
+  </footer>
+</body>
+</html>

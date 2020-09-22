@@ -1,0 +1,24 @@
+{
+  "name": "angularjs_app",
+  "description": "simple app",
+  "main": "index.js",
+  "authors": [
+    "sooraj"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/surajmestha89/angularjs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Font-Awesome": "^5.14.0",
+    "less": "^3.12.0",
+    "oclazyload": "^1.1.0",
+    "angular-ui-router": "^1.0.28",
+    "angular": "1.8.0"
+  }
+}
