@@ -29,7 +29,7 @@
     "grunt-karma": "^4.0.0",
     "grunt-rev": "~0.1.0",
     "grunt-usemin": "~2.0.2",
-    "karma": "^5.1.1",
+    "karma": "^6.3.16",
     "loadash": "^1.0.0",
     "ui-select": "^0.19.8"
   },
